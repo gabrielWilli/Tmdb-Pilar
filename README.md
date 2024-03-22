@@ -15,14 +15,14 @@ O aplicativo desenvolvido em Flutter oferece uma experiência envolvente e intui
 1. Clone o repositório:
 ```bash
 
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone git@github.com:gabrielWilli/Tmdb-Pilar.git
 
 ```
 2. Navegue até o diretório do projeto:
 
 ```bash
 
-cd seu-projeto
+cd tmdb_pilar
 
 ```
 
@@ -38,7 +38,7 @@ flutter pub get
 
 ```bash
 
-flutter run
+flutter run -d <NAME_EMULATOR> --dart-define="TOKEN_TMDB=<YOUR_TOKEN_TMDB>"
 
 ```
 
